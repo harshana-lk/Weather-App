@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
     <title>Weather-App</title>
 </head>
 
@@ -13,52 +14,56 @@
     <div class="weather-app">
         <div class="container">
             <h3 class="brand">the weather</h3>
-            <h1 class="temp">16&#176</h1>
-            <div class="city-time">
-                <h1 class="name">Panadura</h1>
-                <small>
-                    <span class="time">16.00</span>
-                    <span class="date">12 May 2023</span>
-                </small>
-            </div>
-            <div class="weather">
-                <img src="icons/day/113.png" alt="icon" class="icon" width="50" height="50">
-                <span class="conditon">Cloudy</span>
+            <div>
+                <h1 class="temp">16&#176</h1>
+                <div class="city-time">
+                    <h1 class="name">Panadura</h1>
+                    <small>
+                        <span class="time">16.00</span>
+                        <span class="date">12 May 2023</span>
+                    </small>
+                </div>
+
+                <div class="weather">
+                    <img src="icons/day/113.png" alt="icon" class="icon" width="50" height="50">
+                    <span class="conditon">Cloudy</span>
+                </div>
             </div>
         </div>
-    </div>
-    <div class="panel">
-        <form id="locationInput">
-            <input type="text" class="search" placeholder="Search Loaction...">
-            <button type="submit">
-                <i class="fas fa-search"></i>
-            </button>
+        <div class="panel">
+            <form id="locationInput">
+                <input type="text" class="search" placeholder="Search Loaction...">
+                <button type="submit" class="submit">
+                    <i class="fas fa-search"></i>
+                </button>
 
-        </form>
-        <ul class="cities">
-            <li class="city">Badulla</li>
-            <li class="city">Colombo</li>
-            <li class="city">Kandy</li>
-            <li class="city">Jaffna</li>
-            <li class="city">NuwaraEliya</li>
-        </ul>
+            </form>
+            <ul class="cities">
+                <li class="city">Badulla</li>
+                <li class="city">Colombo</li>
+                <li class="city">Kandy</li>
+                <li class="city">Jaffna</li>
+                <li class="city">NuwaraEliya</li>
+            </ul>
 
-        <ul class="details">
-            <h4>Weather Details</h4>
-            <li>
-                <span>Cloudy</span>
-                <span class="c10ud">89%</span>
-            </li>
-            <li>
-                <span>Humidity</span>
-                <span class="humidity">64%</span>
-            </li>
-            <li>
-                <span>Wind</span>
-                <span class="wind">8km/h</span>
-            </li>
-        </ul>
+            <ul class="details">
+                <h4>Weather Details</h4>
+                <li>
+                    <span>Cloudy</span>
+                    <span class="c10ud">89%</span>
+                </li>
+                <li>
+                    <span>Humidity</span>
+                    <span class="humidity">64%</span>
+                </li>
+                <li>
+                    <span>Wind</span>
+                    <span class="wind">8km/h</span>
+                </li>
+            </ul>
+        </div>
     </div>
+
 </body>
 
 </html>
