@@ -82,6 +82,13 @@ h1 {
     margin: 0.5em e;
 }
 
+.weather {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
 .weather-forcast {
     width: 50%;
     text-align: center;
@@ -91,7 +98,7 @@ h1 {
     /* justify-content: center; */
     align-items: flex-start;
     gap: 50px;
-    margin-top: 150px;
+    margin-top: 50px;
     /* box-sizing: border-box; */
 }
 
@@ -139,6 +146,8 @@ h1 {
     transition: 0.4s;
 }
 
+
+
 .submit:hover {
     background: #fff ! important;
     color: #fa6d1b;
@@ -149,7 +158,7 @@ h1 {
     border: none;
     border-bottom: 1px #ccc solid;
     padding: 0 1em 0.5em 0;
-    width: 80%;
+    width: 100%;
     color: #fff;
     font-size: 1.1em;
 }
